@@ -1,20 +1,29 @@
-table ,tr ,th,td {
-    border: 1px solid rgb(0, 0, 0);
-    border-collapse: collapse;  
-    
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
 }
+
+/* table, tr, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin: 30px;
+} */
 
 tr,td,th{
     padding: 2rem;
-    text-align: center;
-    
+    text-align: center;  
 }
+
 thead th{
     color: rgb(1, 5, 27);
-} 
-#head{
-    background-color: rgb(43, 76, 226);
 }
-#employee-details{
-    background-color: rgb(85, 51, 117);
+ 
+#emp-details {
+    text-align: center;
+    /* color: blue; */
+}
+
+p {
+    font-size: 1.5rem;
 }
