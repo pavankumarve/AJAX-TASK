@@ -1,9 +1,20 @@
 table ,tr ,th,td {
     border: 1px solid rgb(0, 0, 0);
-    border-collapse: collapse;   
+    border-collapse: collapse;  
+    
 }
 
 tr,td,th{
     padding: 2rem;
     text-align: center;
+    
+}
+thead th{
+    color: rgb(1, 5, 27);
+} 
+#head{
+    background-color: rgb(43, 76, 226);
+}
+#employee-details{
+    background-color: rgb(85, 51, 117);
 }
