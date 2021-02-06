@@ -31,8 +31,11 @@ const list = document.getElementById('employee-details');
 const x = new XMLHttpRequest();
 x.open('GET', 'https://jsonplaceholder.typicode.com/users');
 x.send();
+//console.log(x);
 x.addEventListener('load', () => {
+    console.log(JSON.parse(x.responseText));
     const emp = JSON.parse(x.responseText);
+    
     // console.log(emp);
     emp.forEach((e, i) => {
         const tr = document.createElement('TR');
